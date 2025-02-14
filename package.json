@@ -1,9 +1,7 @@
 {
-    "name":"new-test",
-    "description":"new project",
-
-"dependencies": {
-  "jest": "^29.7.0"
-}
-
+    "name": "new-test",
+    "description": "new project",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
 }
