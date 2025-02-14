@@ -8,16 +8,17 @@
 //   console.log(queryParams)
 //     return queryParams;
 //   }
-function parseQueryString(queryString) {
+// function parseQueryString(queryString) {
 
-    const queryParams = {}; 
-    const keyValuePairs = queryString.split("&"); 
-    for (const pair of keyValuePairs) {
-      const [key, value] = pair.split("=");
-      queryParams[key] = value;
-    }
+//     const queryParams = {}; 
+//     const keyValuePairs = queryString.split("&"); 
+//     for (const pair of keyValuePairs) {
+//       const [key, value] = pair.split("=");
+//       queryParams[key] = value;
+//     }
+//     console.log(queryParams)
+//     return queryParams;
+//   }
   
-    return queryParams;
-  }
-  
-  parseQueryString("sort=lowest&colour=yellow");
+//   parseQueryString("sort=lowest&colour=yellow");
+const [key,value]
